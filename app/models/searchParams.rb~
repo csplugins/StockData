@@ -1,0 +1,3 @@
+class SearchParams
+  attr_accessor :name, :email, :content
+end

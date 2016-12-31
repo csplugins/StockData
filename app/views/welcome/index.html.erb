@@ -1,0 +1,22 @@
+<h3>Welcome to SkalaStock!</h3>
+
+<%= form_for :searchParams, url: "/search" do |f| %>
+  <p>
+    <%= f.label :mktCap %>
+    <%= f.text_field :mktCap %>
+  </p>
+  
+  <p>
+    <%= f.label :dividend %>
+    <%= f.text_field :dividend %>
+  </p>
+  
+  <p>
+    <%= f.label :lowPercent %>
+    <%= f.text_field :lowPercent %>
+  </p>
+  
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
