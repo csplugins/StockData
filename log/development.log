@@ -1617,3 +1617,18 @@ Processing by WelcomeController#search as HTML
 Completed 200 OK in 94417ms (Views: 37.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-01-17 21:04:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (35.4ms)
+Completed 200 OK in 635ms (Views: 611.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-01-17 21:04:53 -0500
+Processing by WelcomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ANrVXi1FwSljSPvmWvJLREElZ/Ig6RS6dQ0dTwfDy8tUSr6MmZukj0Tx1jFwc66QhNoqVF13hWBL0J+DlHbCFg==", "searchParams"=>{"mktCap"=>"", "dividend"=>"", "lowPercent"=>""}, "commit"=>"Save Searchparams"}
+  Rendering welcome/search.html.erb within layouts/application
+  Rendered welcome/search.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 74832ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
