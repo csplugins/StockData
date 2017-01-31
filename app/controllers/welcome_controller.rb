@@ -328,8 +328,7 @@ class WelcomeController < ApplicationController
   private
   def save_stock_daily(data)
     require 'fileutils'
-    date = Time.new
-    date = date.year.to_s + "-" + date.month.to_s + "-" date.day.to_s
+    date = Time.new.strftime("%Y-%m-%d")
 
     for item in data
       directory = Dir.pwd + "/Stocks/" + item.symbol + "/"
