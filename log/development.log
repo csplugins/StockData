@@ -1868,3 +1868,33 @@ Processing by WelcomeController#search as HTML
 Completed 200 OK in 78139ms (Views: 39.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/search" for 127.0.0.1 at 2017-02-04 12:32:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 609ms (Views: 590.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-02-04 12:32:57 -0500
+Processing by WelcomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vJFFD/p/yIgkagNbmrFE8QlZ4BPd1E9WXbsXAjejse9bex/CdCtg40/+/OggdevUQd9ohsD67m+UlEHTAAcv/g==", "searchParams"=>{"mktCap"=>"", "dividend"=>"", "lowPercent"=>""}, "commit"=>"Save Searchparams"}
+  Rendering welcome/search.html.erb within layouts/application
+  Rendered welcome/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 79421ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2017-02-04 12:35:47 -0500
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 544ms (Views: 527.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 127.0.0.1 at 2017-02-04 12:35:50 -0500
+Processing by WelcomeController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jFQG0i1947Vw4kz64YLv7YZw8jiLiA2geeTZEiXBvExrvlwfoylL3ht2s0lbRkDIzvZ6rZamrJmwy4/DEmUiXQ==", "searchParams"=>{"mktCap"=>"", "dividend"=>"", "lowPercent"=>""}, "commit"=>"Save Searchparams"}
+  Rendering welcome/search.html.erb within layouts/application
+  Rendered welcome/search.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 79295ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
